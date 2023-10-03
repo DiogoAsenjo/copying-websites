@@ -164,7 +164,77 @@ button {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr auto;
   justify-items: center;
-  column-gap: 40px;
+  gap: 40px;
   margin-top: 40px;
+}
+
+.matricula {
+  color: #fff;
+  background-color: #136ad6;
+  text-align: center;
+  grid-column: 2;
+  width: 70%;
+  border-radius: 5px;
+  padding: 20px 10px;
+}
+
+.matricula h1 {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.matricula h2 {
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.matricula button {
+  padding: 10px 20px;
+  border-radius: 32px;
+  text-transform: uppercase;
+  color: #167bf7;
+  background-color: #fff;
+  font-weight: 700;
+  border: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  border-top: 1px solid #fff;
+  margin-top: 50px;
+  padding: 35px 10px 10px 10px;
+  height: 100px;
+}
+
+.links-uteis {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  line-height: 2;
+  font-size: 12px;
+}
+/* .links-uteis {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  line-height: 20px;
+  font-size: 12px;
+} */
+
+.redes-sociais {
+  display: flex;
+  flex-direction: column;
+}
+
+.redes-sociais-icons {
+  display: flex;
+  list-style: none;
+  gap: 5px;
 }
