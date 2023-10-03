@@ -94,12 +94,14 @@ body {
   border: 0.5px solid #167bf7;
   border-radius: 4px;
   background-color: #09336666;
-  width: 210px;
-  height: 160px;
+  width: 200px;
+  height: 140px;
   padding: 20px;
 }
 
 .card h3 {
+  font-size: 15px;
+  margin-top: 0;
   text-transform: uppercase;
 }
 
@@ -147,4 +149,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
+}
+
+.escola_ {
+  margin-bottom: 0;
 }
