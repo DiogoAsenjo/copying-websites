@@ -3,6 +3,10 @@ body {
   font-family: Inter, sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+
 .form-login {
   color: #fff;
   border: 0.5px solid #167bf7;
@@ -13,6 +17,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 350px;
+  align-self: start;
 }
 
 .form-login h1 {
@@ -85,6 +90,7 @@ body {
 .cursos h1 {
   font-weight: 800;
   font-size: 28px;
+  margin-top: 0;
 }
 
 .cursos p {
@@ -94,8 +100,8 @@ body {
   border: 0.5px solid #167bf7;
   border-radius: 4px;
   background-color: #09336666;
-  width: 200px;
-  height: 140px;
+  width: 160px;
+  height: 120px;
   padding: 20px;
 }
 
@@ -153,4 +159,12 @@ body {
 
 .escola_ {
   margin-bottom: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  column-gap: 40px;
+  margin-top: 40px;
 }
