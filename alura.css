@@ -77,3 +77,74 @@ body {
   font-weight: 700;
   width: 100%;
 }
+
+.cursos {
+  color: #fff;
+}
+
+.cursos h1 {
+  font-weight: 800;
+  font-size: 28px;
+}
+
+.cursos p {
+  font-size: 13px;
+}
+.card {
+  border: 0.5px solid #167bf7;
+  border-radius: 4px;
+  background-color: #09336666;
+  width: 210px;
+  height: 160px;
+  padding: 20px;
+}
+
+.card h3 {
+  text-transform: uppercase;
+}
+
+.programacao h3,
+.programacao p:first-child {
+  color: #00c86f;
+}
+
+.frontend h3,
+.frontend p:first-child {
+  color: #6bd1ff;
+}
+
+.datascience h3,
+.datascience p:first-child {
+  color: #9cd33b;
+}
+
+.inteligencia-artificial h3,
+.inteligencia-artificial p:first-child {
+  color: #7b71ff;
+}
+
+.devops h3,
+.devops p:first-child {
+  color: #f16165;
+}
+
+.ux-design h3,
+.ux-design p:first-child {
+  color: #dc6ebe;
+}
+
+.mobile h3,
+.mobile p:first-child {
+  color: #ffba05;
+}
+
+.inovacao h3,
+.inovacao p:first-child {
+  color: #ff8c2a;
+}
+
+.cards-cursos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
