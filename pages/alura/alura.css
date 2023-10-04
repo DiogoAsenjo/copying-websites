@@ -226,8 +226,10 @@ footer {
 }
 
 .redes-sociais h2 {
-  margin-bottom: 0;
+  margin-bottom: 3px;
   margin-top: 0;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .redes-sociais-icons {
