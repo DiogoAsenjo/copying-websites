@@ -1,0 +1,98 @@
+body {
+  background-color: #242424;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header,
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header nav {
+  gap: 30px;
+  font-size: 26px;
+  font-weight: 400;
+  color: #fff;
+}
+
+header h1 {
+  color: #3db2ff;
+  font-size: 46px;
+}
+
+header button {
+  color: #3db2ff;
+  border-radius: 5px;
+  font-size: 26px;
+  background-color: transparent;
+  border: 3px solid #3db2ff;
+  padding: 10px;
+}
+
+.section h1 {
+  font-size: 69px;
+  margin-bottom: 0;
+}
+
+.section p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 150px;
+}
+
+.section1 img {
+  width: 431px;
+  height: 325px;
+  align-self: flex-end;
+}
+
+.section1-left {
+  width: 560px;
+}
+
+.icons {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 150px;
+}
+
+.section2 img {
+  width: 309;
+  height: 208;
+  align-self: center;
+}
+
+.section2-right {
+  width: 560px;
+}
+
+.section3 {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 150px;
+}
+
+.section3 img {
+  width: 309;
+  height: 209;
+  align-self: center;
+}
+
+.section3-left {
+  width: 560px;
+}
